@@ -32,6 +32,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'dockerhub'
-        repository: 'flask_app'
+        repository: 'flaskapp_docker'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
