@@ -10,3 +10,4 @@ COPY . /app/
 
 ENTRYPOINT [ "python" ]
 
+CMD [ "view.py" ]
